@@ -1,348 +1,374 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta
     name="description"
-    content="Aditya Bhosale — firmware and embedded systems engineer working across automotive systems, telematics, and robotics."
-  />
+    content="Aditya Bhosale — firmware engineer working across embedded systems, automotive telematics and robotics."
+  >
 
-  <title>Aditya Bhosale | Firmware & Embedded Systems</title>
+  <title>Aditya Bhosale</title>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
   <link
-    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap"
     rel="stylesheet"
-  />
+  >
 
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <div class="glow glow-one"></div>
-  <div class="glow glow-two"></div>
-
   <header>
-    <nav class="container">
-      <a class="brand" href="#hero" aria-label="Aditya Bhosale home">
-        <b>AB</b>
-        <i></i>
-      </a>
+    <div class="container nav">
+      <a class="name" href="#home">Aditya Bhosale</a>
 
       <button
-        class="menu-toggle"
-        aria-label="Toggle navigation"
+        class="menu"
+        aria-label="Open navigation"
         aria-expanded="false"
-        aria-controls="site-navigation"
       >
-        ☰
+        Menu
       </button>
 
-      <div class="nav-links" id="site-navigation">
+      <nav aria-label="Main navigation">
         <a href="#about">About</a>
-        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#work">Work</a>
         <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
-        <a class="nav-cta" href="#contact">Let's connect ↗</a>
+        <a href="#hikes">Hikes</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="social">
+        <a
+          href="https://github.com/"
+          target="_blank"
+          rel="noopener"
+          aria-label="GitHub"
+        >
+          GH
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/aditya-bhosale-546b88206/"
+          target="_blank"
+          rel="noopener"
+          aria-label="LinkedIn"
+        >
+          in
+        </a>
+
+        <a
+          href="mailto:ADD-YOUR-EMAIL-HERE"
+          aria-label="Email"
+        >
+          @
+        </a>
       </div>
-    </nav>
+    </div>
   </header>
 
   <main>
-    <!-- Hero: identity + focus -->
-    <section id="hero" class="hero container">
-      <div class="hero-copy">
-        <p class="eyebrow">
-          <span></span>
-          Firmware · Embedded Systems · Automotive
-        </p>
+    <!-- Hero -->
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">
+            Firmware · Embedded Systems · Automotive
+          </p>
 
-        <h1>
-          I build reliable<br />
-          <em>systems close to the metal.</em>
-        </h1>
+          <h1>Aditya Bhosale</h1>
 
-        <p class="lead">
-          Firmware engineer working across automotive software, telematics,
-          embedded systems, and robotics — where software meets hardware
-          and reliability matters.
-        </p>
+          <p class="intro">
+            Firmware engineer interested in the systems where software,
+            hardware, vehicles, and intelligent machines meet.
+          </p>
 
-        <div class="actions">
-          <a class="button primary" href="#experience">
-            See what I work on ↓
-          </a>
+          <p class="quiet">
+            Pune, India · Electrical Engineering · 2.5 years in firmware development
+          </p>
 
-          <a
-            class="button"
-            href="https://www.linkedin.com/in/aditya-bhosale-546b88206/"
-            target="_blank"
-            rel="noopener"
-          >
-            LinkedIn ↗
-          </a>
+          <div class="quick">
+            <a href="#work">Work</a>
+            <a href="#projects">Projects</a>
+            <a href="#hikes">Hikes</a>
+            <a href="#contact">Contact</a>
+          </div>
         </div>
 
-        <div class="hero-meta">
-          <span>Based in Pune, India</span>
-          <span>Firmware Engineer</span>
-        </div>
-      </div>
+        <aside class="note">
+          <span>Currently</span>
 
-      <div class="hero-mark" aria-hidden="true">
-        <div class="orbit orbit-one"></div>
-        <div class="orbit orbit-two"></div>
-        <div class="core">
-          <strong>FW</strong>
-          <span>01</span>
-        </div>
+          <p>
+            Working in automotive firmware and telematics while preparing
+            for graduate study in Computer Engineering.
+          </p>
+        </aside>
       </div>
     </section>
 
-    <!-- About: background + engineering direction -->
-    <section id="about" class="section container">
-      <div class="section-label">
-        <span>01</span>
-        <small>Profile</small>
-      </div>
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container layout">
+        <div class="label">About</div>
 
-      <div class="section-content">
-        <p class="section-kicker">About me</p>
+        <div>
+          <h2>
+            From embedded foundations to connected systems.
+          </h2>
 
-        <h2>
-          From embedded foundations<br />
-          <span>to intelligent machines.</span>
-        </h2>
-
-        <div class="about-grid">
           <p>
-            I'm an Electrical Engineering graduate from College of Engineering,
-            Pune, with 2.5 years of experience in firmware development.
-            My early work at Robot Study Circle built my foundation in
-            debugging and embedded systems, leading to my current work at
-            Bajaj Auto Technology Ltd.
+            I am an Electrical Engineering graduate from College of
+            Engineering, Pune. My early experience at Robot Study Circle
+            built my practical foundation in debugging and embedded systems,
+            leading to my current work at Bajaj Auto Technology Ltd.
           </p>
 
           <p>
-            My work sits at the intersection of low-level software, hardware,
-            automotive systems, and connected devices. I enjoy understanding
-            how a system behaves end-to-end and turning complex requirements
-            into dependable software.
+            My work spans automotive operating-system development,
+            telematics modem software, legacy-code maintenance and debugging.
+            I enjoy understanding systems end-to-end rather than treating
+            software as an isolated layer.
+          </p>
+
+          <p>
+            Hiking and trekking are an important part of my life outside
+            engineering, so this site keeps that personal dimension alongside
+            the technical work.
           </p>
         </div>
       </div>
     </section>
 
-    <!-- Experience: current professional work -->
-    <section id="experience" class="section container">
-      <div class="section-label">
-        <span>02</span>
-        <small>Experience</small>
-      </div>
+    <!-- Education -->
+    <section id="education" class="section gray">
+      <div class="container layout">
+        <div class="label">Education</div>
 
-      <div class="section-content">
-        <p class="section-kicker">Professional work</p>
+        <div>
+          <div class="entry">
+            <span>Completed</span>
 
-        <h2>
-          Firmware for systems<br />
-          <span>that have to keep moving.</span>
-        </h2>
-
-        <article class="experience-card">
-          <div class="experience-top">
             <div>
-              <h3>Firmware Engineer</h3>
-              <p class="company">Bajaj Auto Technology Ltd.</p>
+              <h3>College of Engineering, Pune</h3>
+              <p>Electrical Engineering</p>
             </div>
-
-            <span class="duration">2.5 years</span>
           </div>
 
-          <p class="experience-summary">
-            Working on automotive operating system development, vehicle
-            telematics modem development, and legacy code maintenance and
-            debugging. Experienced with AUTOSAR architecture, ISO 26262
-            functional safety requirements, and end-to-end telematics
-            unit architecture.
+          <div class="entry">
+            <span>Next step</span>
+
+            <div>
+              <h3>Graduate study in Computer Engineering</h3>
+
+              <p>
+                Planning for MS study at Texas A&amp;M University, with an
+                interest in continuing toward embedded, automotive, and
+                computer-engineering systems.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work -->
+    <section id="work" class="section">
+      <div class="container layout">
+        <div class="label">Research / Work</div>
+
+        <div>
+          <h2>Automotive firmware and telematics.</h2>
+
+          <article class="work">
+            <div class="work-head">
+              <div>
+                <h3>Firmware Engineer</h3>
+                <p>Bajaj Auto Technology Ltd.</p>
+              </div>
+
+              <span>2.5 years</span>
+            </div>
+
+            <p>
+              Work across automotive operating-system development, vehicle
+              telematics modem development, and legacy software maintenance
+              and debugging.
+            </p>
+
+            <p>
+              Experience includes AUTOSAR architecture, ISO 26262
+              functional-safety requirements, end-to-end telematics-unit
+              architecture, and low-level automotive interfaces.
+            </p>
+
+            <ul>
+              <li>C</li>
+              <li>CAN</li>
+              <li>ADC</li>
+              <li>RTC</li>
+              <li>Renesas RH850</li>
+              <li>Telematics</li>
+              <li>AUTOSAR</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section gray">
+      <div class="container layout">
+        <div class="label">Projects</div>
+
+        <div>
+          <h2>Hands-on work in robotics and control.</h2>
+
+          <p>
+            Projects that complement my professional firmware work through
+            practical experience with sensing, control, robotics software,
+            and simulation.
           </p>
 
-          <div class="chips" aria-label="Experience technologies">
-            <span>ADC</span>
-            <span>CAN</span>
-            <span>MPU Guard</span>
-            <span>RTC</span>
-            <span>Renesas RH850</span>
-          </div>
-        </article>
-      </div>
-    </section>
+          <div class="projects">
+            <article>
+              <span>01</span>
 
-    <!-- Projects: evidence of hands-on engineering -->
-    <section id="projects" class="section container projects">
-      <div class="section-label">
-        <span>03</span>
-        <small>Projects</small>
-      </div>
+              <div>
+                <h3>Autonomous Navigation Robot</h3>
 
-      <div class="section-content">
-        <p class="section-kicker">Selected work</p>
+                <p>
+                  ROS-based robot using 2D LiDAR for mapping, localization
+                  and path planning, with Raspberry Pi and Arduino Mega.
+                </p>
 
-        <h2>
-          Learning by building<br />
-          <span>robots, controls, and embedded systems.</span>
-        </h2>
+                <small>ROS · SLAM · Nav2 · Arduino</small>
+              </div>
+            </article>
 
-        <p class="section-intro">
-          A selection of hands-on projects that show how I approach sensing,
-          control, robotics, simulation, and embedded software.
-        </p>
+            <article>
+              <span>02</span>
 
-        <div class="project-grid">
-          <article class="card featured">
-            <div class="card-top">
-              <small>01</small>
-              <span class="project-type">Robotics</span>
-            </div>
+              <div>
+                <h3>Adaptive Pitch UGV</h3>
 
-            <h3>Autonomous Navigation Robot</h3>
+                <p>
+                  Pitch-adaptive unmanned ground vehicle using PID control,
+                  encoder consistency checks and gyro-based slippage fallback.
+                </p>
 
-            <p>
-              A ROS-based autonomous robot using 2D LiDAR for mapping,
-              localization, and path planning, with Raspberry Pi and
-              Arduino Mega at its core.
-            </p>
+                <small>PID Control · Robotics · Sensors</small>
+              </div>
+            </article>
 
-            <div class="tags">ROS · SLAM · Nav2 · Arduino</div>
-          </article>
+            <article>
+              <span>03</span>
 
-          <article class="card">
-            <div class="card-top">
-              <small>02</small>
-              <span class="project-type">Control</span>
-            </div>
+              <div>
+                <h3>3-DOF Robotic Arm</h3>
 
-            <h3>Adaptive Pitch UGV</h3>
+                <p>
+                  ROS-based inverse-kinematics control for robotic-arm
+                  movement using MoveIt and Gazebo simulation.
+                </p>
 
-            <p>
-              A pitch-adaptive unmanned ground vehicle using PID control,
-              encoder consistency checks, and gyro-based slippage fallback
-              for more reliable motion.
-            </p>
+                <small>ROS · MoveIt · Gazebo</small>
+              </div>
+            </article>
 
-            <div class="tags">PID Control · Robotics · Sensors</div>
-          </article>
+            <article>
+              <span>04</span>
 
-          <article class="card">
-            <div class="card-top">
-              <small>03</small>
-              <span class="project-type">Simulation</span>
-            </div>
+              <div>
+                <h3>Linear Inverted Pendulum</h3>
 
-            <h3>3-DOF Robotic Arm</h3>
+                <p>
+                  STM32 control system using cascaded PID to balance an
+                  inverted pendulum through disturbances.
+                </p>
 
-            <p>
-              ROS-based inverse kinematics control for robotic-arm movement,
-              developed with MoveIt and validated through Gazebo simulation.
-            </p>
-
-            <div class="tags">ROS · MoveIt · Gazebo</div>
-          </article>
-
-          <article class="card">
-            <div class="card-top">
-              <small>04</small>
-              <span class="project-type">Embedded Control</span>
-            </div>
-
-            <h3>Linear Inverted Pendulum</h3>
-
-            <p>
-              An STM32 control system using cascaded PID control to balance
-              an inverted pendulum and respond to external disturbances.
-            </p>
-
-            <div class="tags">STM32 · Embedded C · PID</div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- Skills: grouped by the kind of work they support -->
-    <section id="skills" class="section container">
-      <div class="section-label">
-        <span>04</span>
-        <small>Skills</small>
-      </div>
-
-      <div class="section-content">
-        <p class="section-kicker">Technical toolkit</p>
-
-        <h2>
-          Tools follow the problem.<br />
-          <span>These are the ones I use most.</span>
-        </h2>
-
-        <div class="skills">
-          <div class="skill-row">
-            <div>
-              <b>Programming</b>
-              <small>Languages used to build and debug software</small>
-            </div>
-            <span>C · C++ · Python</span>
-          </div>
-
-          <div class="skill-row">
-            <div>
-              <b>Embedded & Firmware</b>
-              <small>Low-level software and automotive platforms</small>
-            </div>
-            <span>Debugging · CAN · ADC · RTC · AUTOSAR</span>
-          </div>
-
-          <div class="skill-row">
-            <div>
-              <b>Automotive Systems</b>
-              <small>Systems and architecture relevant to vehicle software</small>
-            </div>
-            <span>Telematics · RH850 · ISO 26262</span>
-          </div>
-
-          <div class="skill-row">
-            <div>
-              <b>Robotics</b>
-              <small>Software stack for sensing, planning, and simulation</small>
-            </div>
-            <span>ROS · SLAM · Nav2 · MoveIt · Gazebo</span>
+                <small>STM32 · Embedded C · PID</small>
+              </div>
+            </article>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Contact: clear next action -->
-    <section id="contact" class="contact container">
-      <p class="section-kicker">05 / Contact</p>
+    <!-- Hikes -->
+    <section id="hikes" class="section">
+      <div class="container layout">
+        <div class="label">Hikes</div>
 
-      <h2>
-        Interested in embedded<br />
-        <em>systems and robotics?</em>
-      </h2>
+        <div>
+          <h2>Time spent outside the system.</h2>
 
-      <p>
-        I'm always interested in connecting with people working on embedded
-        software, automotive technology, robotics, and intelligent systems.
-      </p>
+          <p>
+            Hiking is an important personal interest and belongs here
+            alongside the technical work. Individual trek details have not
+            yet been supplied, so nothing is invented.
+          </p>
 
-      <a
-        class="contact-link"
-        href="https://www.linkedin.com/in/aditya-bhosale-546b88206/"
-        target="_blank"
-        rel="noopener"
-      >
-        Connect on LinkedIn ↗
-      </a>
+          <div class="hike">
+            <span>Details needed</span>
+
+            <div>
+              <h3>Hike / Trek name</h3>
+
+              <p>Location · Date / year</p>
+
+              <p>
+                Add distance, altitude, duration, difficulty, personal notes
+                and photographs when available.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section gray">
+      <div class="container layout">
+        <div class="label">Contact</div>
+
+        <div>
+          <h2>Let's connect.</h2>
+
+          <p>
+            Interested in embedded systems, automotive technology,
+            telematics, robotics, or graduate study in computer engineering?
+            Get in touch.
+          </p>
+
+          <div class="contact">
+            <a
+              href="https://www.linkedin.com/in/aditya-bhosale-546b88206/"
+              target="_blank"
+              rel="noopener"
+            >
+              LinkedIn ↗
+            </a>
+
+            <a
+              href="https://github.com/"
+              target="_blank"
+              rel="noopener"
+            >
+              GitHub ↗
+            </a>
+
+            <a href="mailto:ADD-YOUR-EMAIL-HERE">
+              Email ↗
+            </a>
+          </div>
+        </div>
+      </div>
     </section>
   </main>
 
