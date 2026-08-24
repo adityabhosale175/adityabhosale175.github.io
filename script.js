@@ -1,3 +1,1050 @@
+# Updated GitHub Portfolio Files
+
+## `index.html`
+
+``` html
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta
+    name="description"
+    content="Aditya Bhosale — firmware and embedded systems engineer working across automotive systems, telematics, and robotics."
+  />
+
+  <title>Aditya Bhosale | Firmware & Embedded Systems</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="glow glow-one"></div>
+  <div class="glow glow-two"></div>
+
+  <header>
+    <nav class="container">
+      <a class="brand" href="#hero" aria-label="Aditya Bhosale home">
+        <b>AB</b>
+        <i></i>
+      </a>
+
+      <button
+        class="menu-toggle"
+        aria-label="Toggle navigation"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        ☰
+      </button>
+
+      <div class="nav-links" id="site-navigation">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a class="nav-cta" href="#contact">Let's connect ↗</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero: identity + focus -->
+    <section id="hero" class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow">
+          <span></span>
+          Firmware · Embedded Systems · Automotive
+        </p>
+
+        <h1>
+          I build reliable<br />
+          <em>systems close to the metal.</em>
+        </h1>
+
+        <p class="lead">
+          Firmware engineer working across automotive software, telematics,
+          embedded systems, and robotics — where software meets hardware
+          and reliability matters.
+        </p>
+
+        <div class="actions">
+          <a class="button primary" href="#experience">
+            See what I work on ↓
+          </a>
+
+          <a
+            class="button"
+            href="https://www.linkedin.com/in/aditya-bhosale-546b88206/"
+            target="_blank"
+            rel="noopener"
+          >
+            LinkedIn ↗
+          </a>
+        </div>
+
+        <div class="hero-meta">
+          <span>Based in Pune, India</span>
+          <span>Firmware Engineer</span>
+        </div>
+      </div>
+
+      <div class="hero-mark" aria-hidden="true">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="core">
+          <strong>FW</strong>
+          <span>01</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- About: background + engineering direction -->
+    <section id="about" class="section container">
+      <div class="section-label">
+        <span>01</span>
+        <small>Profile</small>
+      </div>
+
+      <div class="section-content">
+        <p class="section-kicker">About me</p>
+
+        <h2>
+          From embedded foundations<br />
+          <span>to intelligent machines.</span>
+        </h2>
+
+        <div class="about-grid">
+          <p>
+            I'm an Electrical Engineering graduate from College of Engineering,
+            Pune, with 2.5 years of experience in firmware development.
+            My early work at Robot Study Circle built my foundation in
+            debugging and embedded systems, leading to my current work at
+            Bajaj Auto Technology Ltd.
+          </p>
+
+          <p>
+            My work sits at the intersection of low-level software, hardware,
+            automotive systems, and connected devices. I enjoy understanding
+            how a system behaves end-to-end and turning complex requirements
+            into dependable software.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience: current professional work -->
+    <section id="experience" class="section container">
+      <div class="section-label">
+        <span>02</span>
+        <small>Experience</small>
+      </div>
+
+      <div class="section-content">
+        <p class="section-kicker">Professional work</p>
+
+        <h2>
+          Firmware for systems<br />
+          <span>that have to keep moving.</span>
+        </h2>
+
+        <article class="experience-card">
+          <div class="experience-top">
+            <div>
+              <h3>Firmware Engineer</h3>
+              <p class="company">Bajaj Auto Technology Ltd.</p>
+            </div>
+
+            <span class="duration">2.5 years</span>
+          </div>
+
+          <p class="experience-summary">
+            Working on automotive operating system development, vehicle
+            telematics modem development, and legacy code maintenance and
+            debugging. Experienced with AUTOSAR architecture, ISO 26262
+            functional safety requirements, and end-to-end telematics
+            unit architecture.
+          </p>
+
+          <div class="chips" aria-label="Experience technologies">
+            <span>ADC</span>
+            <span>CAN</span>
+            <span>MPU Guard</span>
+            <span>RTC</span>
+            <span>Renesas RH850</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Projects: evidence of hands-on engineering -->
+    <section id="projects" class="section container projects">
+      <div class="section-label">
+        <span>03</span>
+        <small>Projects</small>
+      </div>
+
+      <div class="section-content">
+        <p class="section-kicker">Selected work</p>
+
+        <h2>
+          Learning by building<br />
+          <span>robots, controls, and embedded systems.</span>
+        </h2>
+
+        <p class="section-intro">
+          A selection of hands-on projects that show how I approach sensing,
+          control, robotics, simulation, and embedded software.
+        </p>
+
+        <div class="project-grid">
+          <article class="card featured">
+            <div class="card-top">
+              <small>01</small>
+              <span class="project-type">Robotics</span>
+            </div>
+
+            <h3>Autonomous Navigation Robot</h3>
+
+            <p>
+              A ROS-based autonomous robot using 2D LiDAR for mapping,
+              localization, and path planning, with Raspberry Pi and
+              Arduino Mega at its core.
+            </p>
+
+            <div class="tags">ROS · SLAM · Nav2 · Arduino</div>
+          </article>
+
+          <article class="card">
+            <div class="card-top">
+              <small>02</small>
+              <span class="project-type">Control</span>
+            </div>
+
+            <h3>Adaptive Pitch UGV</h3>
+
+            <p>
+              A pitch-adaptive unmanned ground vehicle using PID control,
+              encoder consistency checks, and gyro-based slippage fallback
+              for more reliable motion.
+            </p>
+
+            <div class="tags">PID Control · Robotics · Sensors</div>
+          </article>
+
+          <article class="card">
+            <div class="card-top">
+              <small>03</small>
+              <span class="project-type">Simulation</span>
+            </div>
+
+            <h3>3-DOF Robotic Arm</h3>
+
+            <p>
+              ROS-based inverse kinematics control for robotic-arm movement,
+              developed with MoveIt and validated through Gazebo simulation.
+            </p>
+
+            <div class="tags">ROS · MoveIt · Gazebo</div>
+          </article>
+
+          <article class="card">
+            <div class="card-top">
+              <small>04</small>
+              <span class="project-type">Embedded Control</span>
+            </div>
+
+            <h3>Linear Inverted Pendulum</h3>
+
+            <p>
+              An STM32 control system using cascaded PID control to balance
+              an inverted pendulum and respond to external disturbances.
+            </p>
+
+            <div class="tags">STM32 · Embedded C · PID</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills: grouped by the kind of work they support -->
+    <section id="skills" class="section container">
+      <div class="section-label">
+        <span>04</span>
+        <small>Skills</small>
+      </div>
+
+      <div class="section-content">
+        <p class="section-kicker">Technical toolkit</p>
+
+        <h2>
+          Tools follow the problem.<br />
+          <span>These are the ones I use most.</span>
+        </h2>
+
+        <div class="skills">
+          <div class="skill-row">
+            <div>
+              <b>Programming</b>
+              <small>Languages used to build and debug software</small>
+            </div>
+            <span>C · C++ · Python</span>
+          </div>
+
+          <div class="skill-row">
+            <div>
+              <b>Embedded & Firmware</b>
+              <small>Low-level software and automotive platforms</small>
+            </div>
+            <span>Debugging · CAN · ADC · RTC · AUTOSAR</span>
+          </div>
+
+          <div class="skill-row">
+            <div>
+              <b>Automotive Systems</b>
+              <small>Systems and architecture relevant to vehicle software</small>
+            </div>
+            <span>Telematics · RH850 · ISO 26262</span>
+          </div>
+
+          <div class="skill-row">
+            <div>
+              <b>Robotics</b>
+              <small>Software stack for sensing, planning, and simulation</small>
+            </div>
+            <span>ROS · SLAM · Nav2 · MoveIt · Gazebo</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact: clear next action -->
+    <section id="contact" class="contact container">
+      <p class="section-kicker">05 / Contact</p>
+
+      <h2>
+        Interested in embedded<br />
+        <em>systems and robotics?</em>
+      </h2>
+
+      <p>
+        I'm always interested in connecting with people working on embedded
+        software, automotive technology, robotics, and intelligent systems.
+      </p>
+
+      <a
+        class="contact-link"
+        href="https://www.linkedin.com/in/aditya-bhosale-546b88206/"
+        target="_blank"
+        rel="noopener"
+      >
+        Connect on LinkedIn ↗
+      </a>
+    </section>
+  </main>
+
+  <footer class="container">
+    <span>© 2026 Aditya Bhosale</span>
+    <span>Firmware · Embedded Systems · Robotics</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+```
+
+## `style.css`
+
+``` css
+:root {
+  --bg: #0b0e12;
+  --panel: #11171d;
+  --panel-soft: #151c22;
+  --text: #f2f4f0;
+  --muted: #8f99a3;
+  --muted-strong: #b6bec5;
+  --line: #263039;
+  --accent: #b8f26b;
+  --accent-soft: #b8f26b18;
+  --max-width: 1120px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 16px/1.7 "DM Sans", sans-serif;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+}
+
+.container {
+  width: min(var(--max-width), calc(100% - 48px));
+  margin: 0 auto;
+}
+
+.glow {
+  position: fixed;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  filter: blur(120px);
+  opacity: 0.07;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.glow-one {
+  background: var(--accent);
+  top: -250px;
+  right: -160px;
+}
+
+.glow-two {
+  background: #4364ff;
+  bottom: -320px;
+  left: -220px;
+}
+
+/* ---------------- Navigation ---------------- */
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: #0b0e12e8;
+  border-bottom: 1px solid #ffffff08;
+  backdrop-filter: blur(18px);
+}
+
+nav {
+  height: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  font: 700 18px "Space Grotesk", sans-serif;
+  color: var(--text);
+  text-decoration: none;
+  display: flex;
+  gap: 9px;
+  align-items: center;
+}
+
+.brand b {
+  border: 1px solid var(--accent);
+  padding: 2px 8px;
+  border-radius: 6px;
+}
+
+.brand i,
+.eyebrow span {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--accent);
+  display: inline-block;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.nav-links a {
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: var(--accent);
+}
+
+.nav-cta {
+  border: 1px solid var(--line);
+  padding: 8px 14px;
+  border-radius: 5px;
+}
+
+.menu-toggle {
+  display: none;
+  background: none;
+  border: 0;
+  color: var(--text);
+  font-size: 22px;
+  cursor: pointer;
+}
+
+/* ---------------- Typography ---------------- */
+
+.eyebrow,
+.section-kicker {
+  color: var(--accent);
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.eyebrow span {
+  margin-right: 9px;
+  box-shadow: 0 0 12px var(--accent);
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+h1,
+.contact h2 {
+  font: 700 clamp(3.4rem, 7vw, 6.4rem) / 0.98 "Space Grotesk", sans-serif;
+  letter-spacing: -0.06em;
+}
+
+h2 {
+  font: 600 clamp(2.1rem, 4vw, 3.7rem) / 1.05 "Space Grotesk", sans-serif;
+  letter-spacing: -0.05em;
+}
+
+h3 {
+  font: 600 22px/1.2 "Space Grotesk", sans-serif;
+}
+
+em {
+  color: var(--accent);
+  font-style: normal;
+}
+
+p {
+  color: var(--muted);
+}
+
+.section h2 span,
+.section-content > h2 span {
+  color: var(--muted);
+}
+
+/* ---------------- Hero ---------------- */
+
+.hero {
+  min-height: calc(100vh - 76px);
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 330px;
+  align-items: center;
+  gap: 70px;
+  padding: 75px 0 100px;
+}
+
+.hero-copy {
+  max-width: 780px;
+}
+
+.hero h1 {
+  margin: 24px 0 28px;
+  max-width: 850px;
+}
+
+.lead {
+  font-size: 18px;
+  line-height: 1.75;
+  max-width: 650px;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 34px;
+}
+
+.button {
+  padding: 12px 18px;
+  text-decoration: none;
+  font-weight: 600;
+  border: 1px solid var(--line);
+  border-radius: 5px;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  border-color: #6e7b84;
+}
+
+.button.primary {
+  background: var(--accent);
+  color: #10150d;
+  border-color: var(--accent);
+}
+
+.hero-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 32px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.hero-meta span::before {
+  content: "•";
+  color: var(--accent);
+  margin-right: 8px;
+}
+
+.hero-mark {
+  width: 300px;
+  height: 300px;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  position: relative;
+  justify-self: end;
+  display: grid;
+  place-items: center;
+}
+
+.orbit {
+  position: absolute;
+  border-radius: 50%;
+}
+
+.orbit-one {
+  inset: 24px;
+  border: 1px dashed #60706a;
+  animation: spin 18s linear infinite;
+}
+
+.orbit-two {
+  inset: 75px;
+  border: 1px solid #b8f26b55;
+  animation: spin-reverse 12s linear infinite;
+}
+
+.core {
+  width: 105px;
+  height: 105px;
+  border: 1px solid var(--accent);
+  border-radius: 50%;
+  background: var(--bg);
+  display: grid;
+  place-items: center;
+  align-content: center;
+  box-shadow: 0 0 35px #b8f26b12;
+}
+
+.core strong {
+  color: var(--accent);
+  font: 600 28px "Space Grotesk", sans-serif;
+}
+
+.core span {
+  color: var(--muted);
+  font-size: 11px;
+  letter-spacing: 0.18em;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin-reverse {
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+/* ---------------- Shared sections ---------------- */
+
+.section {
+  padding: 115px 0;
+  border-top: 1px solid var(--line);
+  display: grid;
+  grid-template-columns: 180px minmax(0, 1fr);
+  gap: 60px;
+}
+
+.section-label {
+  display: flex;
+  align-items: flex-start;
+  gap: 9px;
+  color: var(--accent);
+}
+
+.section-label span {
+  font: 600 13px "Space Grotesk", sans-serif;
+}
+
+.section-label small {
+  color: var(--muted);
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.section-content {
+  min-width: 0;
+}
+
+.section-content > .section-kicker {
+  margin-bottom: 18px;
+}
+
+.section-content h2 {
+  margin-bottom: 32px;
+}
+
+.section-intro {
+  max-width: 700px;
+  margin: -8px 0 35px;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 35px;
+  max-width: 900px;
+}
+
+.about-grid p {
+  margin-bottom: 0;
+}
+
+/* ---------------- Experience ---------------- */
+
+.experience-card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  padding: 30px;
+  max-width: 900px;
+}
+
+.experience-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 30px;
+  padding-bottom: 22px;
+  border-bottom: 1px solid var(--line);
+}
+
+.experience-top h3 {
+  margin-bottom: 5px;
+}
+
+.company {
+  margin: 0;
+  color: var(--muted-strong);
+}
+
+.duration {
+  color: var(--accent);
+  font-size: 13px;
+  white-space: nowrap;
+  padding-top: 3px;
+}
+
+.experience-summary {
+  margin: 25px 0;
+  max-width: 780px;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.chips span {
+  color: var(--accent);
+  background: var(--accent-soft);
+  border: 1px solid #9ccc5d33;
+  border-radius: 4px;
+  padding: 4px 9px;
+  font-size: 12px;
+}
+
+/* ---------------- Projects ---------------- */
+
+.projects {
+  display: block;
+}
+
+.projects > .section-label {
+  margin-bottom: 45px;
+}
+
+.projects .section-content {
+  width: 100%;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  padding: 28px;
+  min-height: 265px;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.25s ease, border-color 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  border-color: #b8f26b88;
+}
+
+.card.featured {
+  background: linear-gradient(135deg, #18211b, var(--panel));
+}
+
+.card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card small {
+  color: var(--accent);
+  font: 600 13px "Space Grotesk", sans-serif;
+}
+
+.project-type {
+  color: var(--muted);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.card h3 {
+  margin: 30px 0 12px;
+}
+
+.card p {
+  margin-bottom: 24px;
+}
+
+.tags {
+  margin-top: auto;
+  color: var(--accent);
+  font-size: 12px;
+}
+
+/* ---------------- Skills ---------------- */
+
+.skills {
+  max-width: 900px;
+  border-top: 1px solid var(--line);
+}
+
+.skill-row {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 35px;
+  align-items: center;
+  border-bottom: 1px solid var(--line);
+  padding: 20px 0;
+}
+
+.skill-row > div {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.skill-row b {
+  font-weight: 600;
+}
+
+.skill-row small {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.skill-row > span {
+  color: var(--muted-strong);
+  text-align: right;
+}
+
+/* ---------------- Contact ---------------- */
+
+.contact {
+  padding: 145px 0 155px;
+  border-top: 1px solid var(--line);
+}
+
+.contact h2 {
+  max-width: 900px;
+  margin: 18px 0 25px;
+}
+
+.contact > p:not(.section-kicker) {
+  max-width: 620px;
+  margin-bottom: 30px;
+}
+
+.contact-link {
+  color: var(--text);
+  text-decoration: none;
+  border-bottom: 1px solid var(--accent);
+  padding-bottom: 5px;
+  font-weight: 600;
+}
+
+.contact-link:hover {
+  color: var(--accent);
+}
+
+/* ---------------- Footer ---------------- */
+
+footer {
+  border-top: 1px solid var(--line);
+  padding: 24px 0;
+  color: var(--muted);
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* ---------------- Responsive ---------------- */
+
+@media (max-width: 850px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-mark {
+    display: none;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .about-grid p + p {
+    margin-top: 22px;
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
+    width: calc(100% - 32px);
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 76px;
+    left: 0;
+    right: 0;
+    background: var(--panel);
+    border-bottom: 1px solid var(--line);
+    padding: 20px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .hero {
+    min-height: auto;
+    padding: 90px 0 105px;
+  }
+
+  h1,
+  .contact h2 {
+    font-size: clamp(3rem, 14vw, 5rem);
+  }
+
+  .section {
+    display: block;
+    padding: 85px 0;
+  }
+
+  .section-label {
+    margin-bottom: 30px;
+  }
+
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .experience-top {
+    display: block;
+  }
+
+  .duration {
+    display: inline-block;
+    margin-top: 10px;
+  }
+
+  .skill-row {
+    display: block;
+  }
+
+  .skill-row > span {
+    display: block;
+    text-align: left;
+    margin-top: 9px;
+  }
+
+  footer {
+    display: block;
+  }
+
+  footer span {
+    display: block;
+    margin: 5px 0;
+  }
+}
+```
+
+## `script.js`
+
+``` javascript
 const toggle = document.querySelector(".menu-toggle");
 const links = document.querySelector(".nav-links");
 
@@ -5,7 +1052,7 @@ toggle?.addEventListener("click", () => {
   const open = toggle.getAttribute("aria-expanded") === "true";
 
   toggle.setAttribute("aria-expanded", String(!open));
-  links.classList.toggle("open");
+  links?.classList.toggle("open");
 });
 
 links?.querySelectorAll("a").forEach((link) => {
@@ -14,3 +1061,4 @@ links?.querySelectorAll("a").forEach((link) => {
     toggle?.setAttribute("aria-expanded", "false");
   });
 });
+```
