@@ -1,110 +1,272 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, \
-            initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Aditya Bhosale — firmware and embedded systems engineer."
+    />
 
-    <title>Aditya Bhosale | Portfolio</title>
+    <title>Aditya Bhosale | Firmware Engineer</title>
 
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
 
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="glow one"></div>
+    <div class="glow two"></div>
 
     <header>
-        <nav>
-            <a href="#about">Hi! I am Aditya Bhosale. I am Electrical Engineering \
-                Under Grad from College of Engineering, Pune. In my college years I was\
-                part of Robot Study Circle, which laid my foundation for Firmware\
-                Development and Debugging. This Experience helped me get a Full Time\
-                role at Bajaj Auto Technology Ltd. where I worked on Operating\
-                Systems Development and Telematics Modem Development. For my Experience\
-                and Projects browse to Projects section. 
-            </a>
-            <a href="#experience">2.5 YOE in Firmware Development</a>
-            <a href="#projects">Robotics | Embedded Systems | Electrical</a>
-            <a href="#education">Bachelor of Technology Electrical Engineering</a>
-            <a href="#contact">+917620988501</a>
-        </nav>
+      <nav class="container">
+        <a class="brand" href="#hero">
+          <b>AB</b>
+          <i></i>
+        </a>
+
+        <button
+          class="menu-toggle"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a class="nav-cta" href="#contact">Let's connect ↗</a>
+        </div>
+      </nav>
     </header>
 
     <main>
+      <!-- Hero -->
+      <section id="hero" class="hero container">
+        <div>
+          <p class="eyebrow">
+            <span></span>
+            Firmware engineer · Pune, India
+          </p>
 
-        <section id="hero">
-            <h1>Aditya Bhosale</h1>
-            <p>Computer Engineer | Embedded Systems | Firmware</p>
+          <h1>
+            Building the systems<br />
+            <em>behind the motion.</em>
+          </h1>
+
+          <p class="lead">
+            I design reliable firmware and embedded systems for vehicles,
+            robots, and the real world.
+          </p>
+
+          <div class="actions">
+            <a class="button primary" href="#projects">
+              Explore my work ↓
+            </a>
+
+            <a
+              class="button"
+              href="https://www.linkedin.com/in/aditya-bhosale-546b88206/"
+              target="_blank"
+              rel="noopener"
+            >
+              LinkedIn ↗
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-mark">
+          <div class="core">01</div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section id="about" class="section container">
+        <div class="label">01 / About</div>
+
+        <div>
+          <h2>
+            Curious by nature.<br />
+            <span>Precise by practice.</span>
+          </h2>
+
+          <p>
+            I'm an Electrical Engineering graduate from College of Engineering,
+            Pune, with 2.5 years of experience in firmware development. My time
+            at Robot Study Circle built my foundation in debugging and embedded
+            systems, which led to my work at Bajaj Auto Technology Ltd.
+          </p>
+
+          <p>
+            Today, I work at the intersection of low-level software, hardware,
+            and intelligent machines—turning complex requirements into
+            dependable products.
+          </p>
+        </div>
+      </section>
+
+      <!-- Experience -->
+      <section id="experience" class="section container">
+        <div class="label">02 / Experience</div>
+
+        <div>
+          <div class="role">
+            <div>
+              <h3>Firmware Engineer</h3>
+              <p class="muted">
+                Bajaj Auto Technology Ltd. · 2.5 years
+              </p>
+            </div>
+
+            <span></span>
+          </div>
+
+          <p>
+            Worked on automotive operating system development, vehicle
+            telematics modem development, and legacy code maintenance and
+            debugging. Experienced with AUTOSAR architecture, ISO 26262
+            functional safety requirements, and end-to-end telematics unit
+            architecture.
+          </p>
+
+          <div class="chips">
+            <i>ADC</i>
+            <i>CAN</i>
+            <i>MPU Guard</i>
+            <i>RTC</i>
+            <i>Renesas RH850</i>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" class="section container projects">
+        <div class="heading">
+          <div class="label">03 / Selected work</div>
+
+          <h2>
+            Projects that move<br />
+            <span>from idea to reality.</span>
+          </h2>
+        </div>
+
+        <div class="grid">
+          <article class="card featured">
+            <small>01</small>
+
+            <h3>Autonomous Navigation Robot</h3>
+
             <p>
-                Short introduction about yourself.
+              A ROS-based robot using 2D LiDAR for mapping, localization, and
+              path planning, with Raspberry Pi and Arduino Mega at its core.
             </p>
-        </section>
 
-        <section id="about">
-            <h2>About</h2>
+            <div class="tags">ROS · SLAM · Nav2 · Arduino</div>
+          </article>
+
+          <article class="card">
+            <small>02</small>
+
+            <h3>Adaptive Pitch UGV</h3>
+
             <p>
-                Write a short description about your background,
-                interests and what you work on.
+              A pitch-adaptive unmanned ground vehicle with PID controls,
+              encoder consistency checks, and gyro-based slippage fallback.
             </p>
-        </section>
 
-        <section id="experience">
-            <h2>I have 2.5 YOE in Firmware Development. I have worked on Automotive Operating System
-                Development, Vehicle Telematics Modem Development and Legacy Code maintainance and debugging.
-                I have knowledge of AUTOSAR Architecture, ISO 26262 Functional Safety requirements and Architecting
-                End-to-End Telematics Unit. From Driver Side I have worked on ADC, CAN, PEG(MPU - localRAM Guard),\
-                and RTC fir Renesas RH850 controller(S1, S2, D8).
-            </h2>
-            <!-- Work experience -->
-        </section>
+            <div class="tags">PID Control · Robotics</div>
+          </article>
 
-        <section id="projects">
-            <h2>Autonomous Navigation Robot: ROS based Autonomous Navigation Robot. Used 2D LiDAR to map, localize\
-                and path planning in addition to Raspberry Pi and Arduino Mega as brains and Gyro and Encoders for\
-                sensor inputs. Software stack was Gmapping and Hector SLAM for mapping, AMCL for localization and\
-                Nav2 for path planning. Novelty wise, we custom wrote odometr library for Arcuino as ROS provided\
-                library would cause stack overflow. Removing redundant 3D parameters and Bit fielding elements to\
-                reduce space complexity  
-            </h2>
-            <h2>Adaptive Pitch Unmanned Ground Vehicle(UGV): Developed a pitch adaptive UGV. Think of a wheel as\
-                a conveyor belt pivoted at a end with high torque servo to lift or draw down the conveyor, 4 such\
-                conveyors made up the drive. Implemented PID based controls using encoder and gyroscope inputs.\
-                Added encoder consistency to check inertial slippage and fallback on gyro based locomotion under wheel\
-                slippage. Automated pitch correct under uneven terrains.  
-            </h2>
-            <h2>3-DOF Robotic Arm Manipulator: Implemented ROS based Inverse Kinematics control for Arm movement\
-                using MoveIT package and Gazebo based simulation.
-            </h2>
-            <h2>Linear Inverted Pendulm: Used STM32 and Hal Libraries to implement control mechanism for inverted\
-                pendulm. Used cascaded PID to initiate inverted motion and later maintaining the inverted position\
-                upon disturbances.
-            </h2>
-            <h2>Line Follower Robot: Developed Line follower Robot using Weighted PID</h2>
-            <!-- Projects -->
-        </section>
+          <article class="card">
+            <small>03</small>
 
-        <section id="education">
-            <h2>Bachelor of Technology Electrical Engineering</h2>
-            <!-- Education -->
-        </section>
+            <h3>3-DOF Robotic Arm</h3>
 
-        <section id="skills">
-            <h2>Programming: C, Python, C++(begineer)</h2>
-            <h2>Firmware: Debugging, Ideation to Execution, AI collaboration</h2>
-            <!-- Technical skills -->
-        </section>
+            <p>
+              ROS-based inverse kinematics control for arm movement, with
+              MoveIt and Gazebo simulation.
+            </p>
 
-        <section id="contact">
-            <h2>https://www.linkedin.com/in/aditya-bhosale-546b88206/</h2>
-            <!-- GitHub, LinkedIn, email, etc. -->
-        </section>
+            <div class="tags">ROS · MoveIt · Gazebo</div>
+          </article>
 
+          <article class="card">
+            <small>04</small>
+
+            <h3>Linear Inverted Pendulum</h3>
+
+            <p>
+              STM32 control system using cascaded PID to balance an inverted
+              pendulum through disturbances.
+            </p>
+
+            <div class="tags">STM32 · Embedded C</div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section id="skills" class="section container">
+        <div class="label">04 / Toolkit</div>
+
+        <div>
+          <h2>
+            The tools I use<br />
+            <span>to make things work.</span>
+          </h2>
+
+          <div class="skills">
+            <div>
+              <b>Languages</b>
+              <span>C · Python · C++</span>
+            </div>
+
+            <div>
+              <b>Embedded &amp; Firmware</b>
+              <span>Debugging · CAN · ADC · RTC · AUTOSAR</span>
+            </div>
+
+            <div>
+              <b>Robotics</b>
+              <span>ROS · SLAM · Nav2 · MoveIt · Gazebo</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="contact container">
+        <p class="eyebrow">Have a project in mind?</p>
+
+        <h2>
+          Let's build something<br />
+          <em>that matters.</em>
+        </h2>
+
+        <a
+          href="https://www.linkedin.com/in/aditya-bhosale-546b88206/"
+          target="_blank"
+          rel="noopener"
+        >
+          Connect on LinkedIn ↗
+        </a>
+      </section>
     </main>
 
-    <footer>
-        <p>© 2026 Aditya Bhosale</p>
+    <footer class="container">
+      <span>© 2026 Aditya Bhosale</span>
+      <span>Designed &amp; built with intent.</span>
     </footer>
 
     <script src="script.js"></script>
-
-</body>
+  </body>
 </html>
